@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* header部分*/
+html{
+	cursor: auto;
+	font-size: 20px;
+}
+body{
+	background: rgb(248,248,248);
+	margin: 0 auto;
+	color: #121212;
+	width: 32rem;
+}
+body>div{
+	padding: 0 1rem;
+	background:#fff;
+}
+#top{
+	height: 100%;
+	width: 100%;
+}
+header #top img{
+	height: 3rem;
+	width: 3rem;
+}
+header{
+	background: #fff;
+	width: 100%;
+}
+#top-nav ul{
+	height: 100%;
+	width: 14rem;
+}
+#top-nav ul li>a{
+	height: 100%;
+	width: 100%;
+	color: #999;
+}
+#top-nav ul li{
+	height: 4rem;
+	width: 6rem;
+	line-height: 3rem;
+	cursor: pointer;
+}
+.change{
+	color: #000000 !important;
+	font-weight: 500;
+	font-size: 1.3rem !important;
+}
+.nav-b{
+	height: 2.5rem;
+	width: 100%;
+}
+.nav-b>div{
+	height: 100%;
+}
+.nav-b>span{
+	height:100%;
+	cursor: pointer;
+}
+.changeRed{
+	color: red;
+	border-bottom: 0.1rem solid red;
+}
+/* section */
+/* 内容列表模板部分 */
+section{
+	height: 110rem;
+	overflow: scroll;
+}
+.model-head>img{
+	height: 17rem;
+	width: 100%;
+	border-radius: 0.8rem;
+}
+.model-head>p{
+	height: 4rem;
+}
+.model-foo-l>img{
+	height: 4rem;
+	width: 4rem;
+}
+.model-foo-r{
+	height: 100%;
+	width: 12rem;
+}
+.model-foo-r>img{
+	height: 2.8rem;
+	width: 2.8rem;
+}
+.model-footer{
+	border-bottom: 0.05rem solid rgb(248,248,248);
+	border-top: 0.05rem solid rgb(248,248,248);
+}
+
+/* footer */
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+}
+.play-l img{
+	height: 3rem;
+	width: 3rem;
+}
+.play-r a img{
+	height: 3rem;
+	width: 3rem;
+}
+

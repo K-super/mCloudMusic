@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* header部分*/
+html{
+	cursor: auto;
+	font-size: 20px;
+}
+body{
+	background: rgb(245,245,245);
+	width: 32rem;
+	margin: 0 auto;
+	color: #121212;
+}
+body>div{
+	padding: 0 1rem;
+	background:#fff;
+}
+header>div>img{
+	height: 3rem;
+	width: 3rem;
+}
+header{
+	background: #fff;
+}
+#top-nav ul{
+	height: 100%;
+	width: 14rem;
+}
+#top-nav ul li>a{
+	height: 100%;
+	width: 100%;
+	color: #999;
+}
+#top-nav ul li{
+	height: 4rem;
+	width: 6rem;
+	line-height: 3rem;
+	cursor: pointer;
+	color: #999;
+}
+.change{
+	color: #000000 !important;
+	font-weight: 500;
+	font-size: 1.3rem !important;
+}
+/* 返回顶部 */
+#returnTop{
+	height: 3rem;
+	width: 3rem;
+	background: #3DA2E3;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 8%;
+	right: 10%;
+	display: none;
+	line-height: 3rem;
+}
+
+/* section部分 */
+/* banner */
+section{
+	margin-bottom: 3rem;
+}
+/* #ban{
+	overflow: hidden;
+} */
+#ban{
+	width: 100%;
+	overflow: scroll;
+}
+#ban>div{
+	width: 1100%;
+}
+#ban>div>img{
+	height: 10rem;
+	width: 30rem;
+	border-radius: 0.5rem;
+}
+#banner{
+	border-bottom: 0.05rem solid rgb(249,249,249);
+}
+#banner ul li img{
+	height: 4rem;
+	width: 4rem;
+}
+#banner ul li p{
+	color: #121212;
+}
+/* 推荐歌单 */
+#Recommend>div:nth-of-type(1){
+	height: 4rem;
+	width: 100%;
+}
+.recom-a{
+	height: 1.5rem;
+	width: 6rem;
+	border: 0.05rem solid rgb(249,249,249);
+	border-radius: 0.5rem;
+	color: rgb(128,128,128);
+	line-height: 1.5rem;
+}
+/* 推荐歌单 list列表部分 */
+#rec-ul ul li img,#newDVD-ul ul li img{
+	height: 9.2rem;
+	width: 9.2rem;
+	border-radius: 0.5rem;
+}
+#rec-ul ul li p,#newDVD-ul ul li p{
+	width: 9.2rem;
+	color: rgb(93,93,93);
+}
+.color999{
+	color: #999 !important;
+}
+/* 云村精选 */
+#Cloud-village{
+	/* background: #fff; */
+}
+#Cloud-village>div:nth-of-type(1){
+	height: 4rem;
+	width: 100%;
+	border-bottom: 0.05rem solid rgb(247,247,247);
+}
+#Cloud-village .borderBottom>div>img{
+	height: 1rem;
+	width: 1rem;
+	vertical-align: middle;
+}
+.borderBottom{
+	border-bottom: 0.05rem solid rgb(255,255,255);
+}
+/* vill-model */
+.color1212{
+	color: #121212;
+}
+.vill-model>p{
+	height: 3rem;
+	line-height: 3rem;
+}
+.vill-model .cont>img{
+	height: 18rem;
+	width: 100%;
+	border-radius: 0.8rem 0.8rem 0 0;
+}
+.vill-model>div>p{
+	height: 3.5rem;
+	border-radius:0 0 0.8rem 0.8rem;
+	background: rgb(243,243,243);
+}
+.vill-model>p:nth-of-type(1){
+	height: 3rem;
+	width: 100%;
+}
+.vill-model>p div span img{
+	height: 3rem;
+	width: 3rem;
+	vertical-align: middle;
+}
+.comments>div:nth-of-type(1){
+	height: 3rem;
+	width: 10rem;
+}
+/* footer */
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+}
+.play-l img{
+	height: 3rem;
+	width: 3rem;
+}
+.play-r a img{
+	height: 3rem;
+	width: 3rem;
+}

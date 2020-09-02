@@ -1,0 +1,192 @@
+@charset "utf-8";
+html{
+	font-size: 20px;
+	cursor: auto;
+}
+body{
+	background: rgb(245,245,245);
+}
+body>div{
+	width: 32rem;
+	margin: 0 auto;
+}
+header>div>img{
+	height: 3rem;
+	width: 3rem;
+}
+header{
+	background: #fff;
+}
+#top-nav ul{
+	height: 100%;
+	width: 14rem;
+}
+#top-nav ul li{
+	height: 4rem;
+	width: 6rem;
+	line-height: 3rem;
+	cursor: pointer;
+}
+#top-nav ul li>a{
+	height: 100%;
+	width: 100%;
+	color: #999;
+}
+.change{
+	color: #000000 !important;
+	font-weight: 500;
+	font-size: 1.3rem !important;
+}
+/* section */
+/* 轮播按钮部分 */
+#banner{
+	background-color: #fff;
+	height: 8rem;
+	width: 100%;
+	overflow: scroll;
+}
+#banner img{
+	height:4rem;
+	width: 4rem;
+
+}
+#banner ul{
+	width: 85rem;
+}
+#banner li p{
+	color: #999;
+}
+/* list */
+#list{
+	background: #fff;
+	border-top: 0.05rem solid rgb(246,246,246);
+}
+#list ul li{
+	height: 4rem;
+	width: 100%;
+	border-bottom: 0.05rem solid rgb(246,246,246);
+}
+#list ul li a img{
+	height: 1.8rem;
+	width: 1.8rem;
+}
+#list ul li a>span{
+	height:3rem;
+	width:100% ;
+}
+.color1212{
+	color: #121212 !important;
+}
+.color999{
+	color: #999999 !important;
+}
+/* 创建的歌单 */
+#song-list{
+	background: #fff;
+}
+#song-list>div:nth-of-type(1){
+	height: 3rem;
+}
+.add{
+	height: 100%;
+	width: 100%;
+}
+#left img{
+	height: 1rem;
+	width: 1.2rem;
+}
+#right img{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+/* 我喜欢的音乐 */
+.likeMusic{
+	background: #fff;
+}
+.likeMusic a{
+	height: 5rem;
+	width: 100%;
+}
+.likeMusic a div:nth-of-type(1){
+	height: 100%;
+}
+.likeMusic a img{
+	height: 5rem;
+	width: 5rem;
+	border-radius: 0.6rem;
+}
+/* 心动模式按钮 */
+#cardiac{
+	height: 2rem;
+	width: 11rem;
+	border: 0.05rem solid rgb(245,245,245);
+	border-radius: 1rem;
+	color: rgb(120,120,120);
+}
+#cardiac img{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+/* 导入歌单部分 */
+.import{
+	height: 10rem;
+	width: 100%;
+	background: #fff;
+}
+.import div{
+	height: 6rem;
+	width: 90%;
+	border: 0.05rem dashed #999;
+	border-radius: 0.5rem;
+}
+.import div img{
+	height: 1.8rem;
+	width: 1.8rem;
+}
+/* 推荐歌单部分 */
+#Recommend{
+	background: #fff;
+	height: 38rem;
+}
+.re-nav{
+	height: 3rem;
+	width: 100%;
+}
+.re-nav div>img{
+	height: 2.6rem;
+	width: 2.6rem;
+	vertical-align: middle;
+}
+#del{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+#cont-list ul li img{
+	height: 9rem;
+	width: 9rem;
+}
+#cont-list ul li p{
+	width: 9rem;
+}
+
+/* footer */
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+}
+.play-l img{
+	height: 3rem;
+	width: 3rem;
+}
+.play-r a img{
+	height: 3rem;
+	width: 3rem;
+}
+
+
+
+
